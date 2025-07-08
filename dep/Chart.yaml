@@ -1,0 +1,6 @@
+apiVersion: v2 # версия хелм чарта
+name: static-site # имя приложения
+description: a Helm char for my site # описание
+type: application # тип - приложение, в нашем случае именно так
+version: 0.1.0 # произвольная версия чарта, нужна для управления версиями
+appVersion: '1.0' # версия самого приложения.
